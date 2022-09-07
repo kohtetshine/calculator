@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th colspan="2" class="h3"><h3>Calculator</h3></th>
+            </tr>
+            <tr class="ans">
+                <th colspan="2">
+                    <h4>Answer</h4>
+                </th>
+            </tr>
+            <tr>
+                <td class="label"><label for="firstNo">Enter First Number</label></td>
+                <td><input type="number" name="firstNo" id="firstNo" placeholder="Enter Number"></td>
+            </tr>
+            <tr class="span">
+                <td colspan="2"><span>Need to Add Data</span></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="secondNo">Enter Second Number</label></td>
+                <td><input type="number" name="secondNo" id="secondNo" placeholder="Enter Number"></td>
+            </tr>
+            <tr class="span">
+                <td colspan="2"><span>Need to Add Data</span></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="operator">Choose Operator</label></td>
+                <td>
+                    <select name="operator" id="operator">
+                        <option value="ope" selected>Choose Operator</option>
+                        <option value="add"> + </option>
+                        <option value="sub"> - </option>
+                        <option value="multi"> x </option>
+                        <option value="div"> / </option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="span">
+                <td colspan="2"><span>Need to Add Data</span></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button">Calculate</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
