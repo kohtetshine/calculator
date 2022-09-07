@@ -15,7 +15,7 @@
             </tr>
             <tr class="ans">
                 <th colspan="2">
-                    <h4>Answer</h4>
+                    <h4 id="answer">Answer</h4>
                 </th>
             </tr>
             <tr>
@@ -23,14 +23,14 @@
                 <td><input type="number" name="firstNo" id="firstNo" placeholder="Enter Number"></td>
             </tr>
             <tr class="span">
-                <td colspan="2"><span>Need to Add Data</span></td>
+                <td colspan="2"><span id="firstNoError">Need to Add Data</span></td>
             </tr>
             <tr>
                 <td class="label"><label for="secondNo">Enter Second Number</label></td>
                 <td><input type="number" name="secondNo" id="secondNo" placeholder="Enter Number"></td>
             </tr>
             <tr class="span">
-                <td colspan="2"><span>Need to Add Data</span></td>
+                <td colspan="2"><span id="secondNoError">Need to Add Data</span></td>
             </tr>
             <tr>
                 <td class="label"><label for="operator">Choose Operator</label></td>
@@ -45,15 +45,17 @@
                 </td>
             </tr>
             <tr class="span">
-                <td colspan="2"><span>Need to Add Data</span></td>
+                <td colspan="2"><span id="opeError">Need to Add Data</span></td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <button type="button">Calculate</button>
+                    <button type="button" id="btn">Calculate</button>
                 </td>
             </tr>
         </table>
     </form>
     
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
